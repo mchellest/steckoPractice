@@ -1,0 +1,14 @@
+PImage errmsg;
+
+void setup(){
+  size(600,500);
+  background(255);
+  imageMode(CENTER);
+  errmsg = loadImage("errmsg_img.png", mouseX, mouseY, 253, 124);
+  
+}
+
+void draw(){
+  
+  
+}
